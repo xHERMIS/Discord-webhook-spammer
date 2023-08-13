@@ -1,6 +1,6 @@
 # Discord Webhook Spammer
 
-A simple Python script to spam messages to a Discord webhook.
+🤖📨 A simple Python script to spam messages to a Discord webhook.
 
 ## Usage
 
@@ -10,13 +10,19 @@ A simple Python script to spam messages to a Discord webhook.
 ```bash
 python webhook_spammer.py <webhook_url> "<message>" 
 ```
-## Options
+# Discord Webhook Spammer
+
+## ⚙️ Options
 
 - `--num-requests`: Number of requests to send (default: 10)
 - `--delay`: Delay between requests in seconds (default: 1)
 - `--username`: Custom username for messages
 - `--avatar`: Custom avatar URL for messages
 
-## Disclaimer
+## ⚠️ Disclaimer
 
-**Important:** This tool is intended for legitimate testing and educational purposes only. It should not be used for malicious or unauthorized activities. By using this tool, you agree to use it responsibly and in compliance with Discord's terms of service. The creators of this tool are not responsible for any misuse or consequences resulting from its use.
+**Important:** 🚫 This tool is for legitimate testing and educational purposes only. Do not use for malicious activities. By using this tool, you agree to responsible and ethical use. The creators are not liable for misuse or consequences.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
