@@ -13,6 +13,9 @@ Discord Webhook Spammer is a lightweight script that allows you to spam a Discor
 ## 💻 Usage
 
 1. Clone the repository or download the ZIP archive
+```bash
+git clone https://github.com/xHERMIS/Discord-webhook-spammer.git
+```
 2. Make sure you have Python installed (version 3.6 or higher).
 3. Install the required dependencies: pip install requests.
 4. Run the script: python webhook_spammer.py.
