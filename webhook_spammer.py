@@ -1,4 +1,3 @@
-import argparse
 import requests
 import time
 
@@ -17,16 +16,16 @@ def send_webhook(url, message, num_requests=10, delay=1, username=None, avatar=N
         time.sleep(delay)
 
 def main():
-    parser = argparse.ArgumentParser(description='Discord Webhook Spammer')
-    parser.add_argument('url', type=str, help='Webhook URL')
-    parser.add_argument('message', type=str, help='Message to spam')
-    parser.add_argument('--num-requests', type=int, default=10, help='Number of requests to send')
-    parser.add_argument('--delay', type=int, default=1, help='Delay between requests')
-    parser.add_argument('--username', type=str, help='Custom username for messages')
-    parser.add_argument('--avatar', type=str, help='Custom avatar URL for messages')
-    args = parser.parse_args()
+    print("Discord Webhook Spammer")
+    print("-----------------------")
+    webhook_url = input("Enter the webhook URL: ")
+    message = input("Enter the message to spam: ")
+    num_requests = int(input("Enter the number of requests to send: "))
+    delay = int(input("Enter the delay between requests (in seconds): "))
+    username = input("Enter a custom username for messages (leave empty for default): ")
+    avatar = input("Enter a custom avatar URL for messages (leave empty for default): ")
 
-    send_webhook(args.url, args.message, args.num_requests, args.delay, args.username, args.avatar)
+    send_webhook(webhook_url, message, num_requests, delay, username, avatar)
 
 if __name__ == '__main__':
     main()

@@ -12,12 +12,13 @@ python webhook_spammer.py <webhook_url> "<message>"
 ```
 ## ⚙️ Options
 
-Customize your spamming experience with these options:
+Customize your spamming experience by providing options as input:
 
-- `--num-requests`: Number of requests to send (default: 10)
-- `--delay`: Delay between requests in seconds (default: 1)
-- `--username`: Custom username for messages
-- `--avatar`: Custom avatar URL for messages
+Number of requests to send
+Delay between requests in seconds
+Custom username for messages
+Custom avatar URL for messages
+When you run the script, you'll be prompted to enter these options interactively.
 
 ## ⚠️ Disclaimer
 
