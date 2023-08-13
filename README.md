@@ -1,24 +1,51 @@
 # Discord Webhook Spammer
 
-🤖📨 A simple Python script to spam messages to a Discord webhook.
+## Introduction
+Discord Webhook Spammer is a lightweight script that allows you to spam a Discord webhook with custom messages. It's a fun project for testing purposes or having a little fun with friends. Be responsible and use this script in a respectful manner.
+
+##  Features
+- Spam a Discord webhook with custom messages.
+- Customize the number of requests and delay between them.
+- Option to set a custom username and avatar for messages.
 
 ## Usage
 
-1. Install required packages using: `pip install -r requirements.txt`
-2. Run the script with the following command:
+1. Clone the repository or download the ZIP archive
+2. Make sure you have Python installed (version 3.6 or higher).
+3. Install the required dependencies: pip install requests.
+4. Run the script: python webhook_spammer.py.
+5. Follow the prompts to input the webhook URL and customize spam settings.
+6. Enjoy responsibly!
 
-```bash
-python webhook_spammer.py <webhook_url> "<message>" 
-```
-## ⚙️ Options
 
-Customize your spamming experience by providing options as input:
+## Options
 
-Number of requests to send
-Delay between requests in seconds
-Custom username for messages
-Custom avatar URL for messages
-When you run the script, you'll be prompted to enter these options interactively.
+1. **Webhook URL**: The URL of the Discord webhook you want to spam.
+
+2. **Mention Choice**: Choose whether to mention everyone or here in the messages.
+
+3. **Message to Spam**: The message content you want to spam.
+
+4. **Number of Requests**: The number of requests to send.
+
+5. **Delay Between Requests**: The delay between each request in milliseconds.
+
+6. **Custom Username**: (Optional) Set a custom username for the messages.
+
+7. **Custom Avatar URL**: (Optional) Set a custom avatar URL for the messages.
+
+## Disclaimer
+
+This script is intended for educational purposes only. Use it responsibly and do not engage in any malicious activities.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+Developed by [HERMIS <3](https://github.com/xHERMIS)
+
 
 ## ⚠️ Disclaimer
 
