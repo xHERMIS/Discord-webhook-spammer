@@ -18,34 +18,26 @@ Discord Webhook Spammer is a lightweight script that allows you to spam a Discor
 6. Enjoy responsibly!
 
 
-## Options
 
-1. **Webhook URL**: The URL of the Discord webhook you want to spam.
+## Options 🛠️
 
-2. **Mention Choice**: Choose whether to mention everyone or here in the messages.
+1. **Webhook URL**: The URL of the Discord webhook you want to spam. 🌐
 
-3. **Message to Spam**: The message content you want to spam.
+2. **Mention Choice**: Choose whether to mention everyone or here in the messages. 🗣️
 
-4. **Number of Requests**: The number of requests to send.
+3. **Message to Spam**: The message content you want to spam. 💬
 
-5. **Delay Between Requests**: The delay between each request in milliseconds.
+4. **Number of Requests**: The number of requests to send. 📊
 
-6. **Custom Username**: (Optional) Set a custom username for the messages.
+5. **Delay Between Requests**: The delay between each request in milliseconds. ⏱️
 
-7. **Custom Avatar URL**: (Optional) Set a custom avatar URL for the messages.
+6. **Custom Username**: (Optional) Set a custom username for the messages. 👤
 
-## Disclaimer
+7. **Custom Avatar URL**: (Optional) Set a custom avatar URL for the messages. 🖼️
 
-This script is intended for educational purposes only. Use it responsibly and do not engage in any malicious activities.
+## License 📜
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Developed by [HERMIS <3](https://github.com/xHERMIS)
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 📄
 
 ## ⚠️ Disclaimer
 
@@ -57,6 +49,9 @@ Developed by [HERMIS <3](https://github.com/xHERMIS)
 - Use unique and creative messages to test webhook behavior effectively.
 - Be respectful and follow ethical guidelines while using this tool.
 
-## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+---
+
+Developed by [HERMIS <3](https://github.com/xHERMIS) 💖
+
+---
