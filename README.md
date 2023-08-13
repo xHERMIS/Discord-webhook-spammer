@@ -1,4 +1,6 @@
-# Discord Webhook Spammer
+# Discord Webhook Spammer 📣
+
+A simple Python script to spam a Discord webhook with custom messages. 💬🚀
 
 ## Introduction
 Discord Webhook Spammer is a lightweight script that allows you to spam a Discord webhook with custom messages. It's a fun project for testing purposes or having a little fun with friends. Be responsible and use this script in a respectful manner.
