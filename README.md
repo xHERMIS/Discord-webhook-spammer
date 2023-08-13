@@ -8,8 +8,8 @@ A simple Python script to spam messages to a Discord webhook.
 2. Run the script with the following command:
 
 ```bash
-python webhook_spammer.py <webhook_url> "<message>"```
-
+python webhook_spammer.py <webhook_url> "<message>" 
+```
 ## Options
 
 --num-requests: Number of requests to send (default: 10)
