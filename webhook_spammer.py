@@ -1,5 +1,22 @@
 import requests
 import time
+import warnings
+import os
+from colorama import init, Fore
+
+# Initialize colorama
+init(autoreset=True)
+
+# Copyright notice
+COPYRIGHT_NOTICE = f"""
+{Fore.MAGENTA}
+██   ██ ███████ ██████  ███    ███ ██ ███████ 
+██   ██ ██      ██   ██ ████  ████ ██ ██      
+███████ █████   ██████  ██ ████ ██ ██ ███████ 
+██   ██ ██      ██   ██ ██  ██  ██ ██      ██ 
+██   ██ ███████ ██   ██ ██      ██ ██ ███████ 
+{Fore.RESET}
+"""
 
 def send_webhook(url, message, num_requests=10, delay_ms=1000, username=None, avatar=None):
     headers = {'Content-Type': 'application/json'}
@@ -9,15 +26,21 @@ def send_webhook(url, message, num_requests=10, delay_ms=1000, username=None, av
     if avatar:
         data['avatar_url'] = avatar
 
-    for _ in range(num_requests):
+    # Filter out RequestsDependencyWarning
+    warnings.filterwarnings("ignore", category=requests.RequestsDependencyWarning)
+
+    for i in range(1, num_requests + 1):
         response = requests.post(url, json=data, headers=headers)
-        print(f"Response Status Code: {response.status_code}")
-        print(f"Response Content: {response.content}")
+        print(f"{Fore.YELLOW}Request {i}:")
+        print(f"Status Code: {Fore.CYAN}{response.status_code}")
+        print(f"Response Content: {Fore.GREEN}{response.content}\n")
         time.sleep(delay_ms / 1000)  # Convert delay_ms to seconds
 
 def main():
-    print("Discord Webhook Spammer")
-    print("-----------------------")
+    print(f"{Fore.MAGENTA}Discord Webhook Spammer")
+    print(f"{Fore.MAGENTA}-----------------------")
+    print(COPYRIGHT_NOTICE)  # Display copyright notice
+    print(f"{Fore.YELLOW}Developed by {Fore.MAGENTA}HERMIS <3{Fore.RESET}")  # Display your Discord username
     webhook_url = input("Enter the webhook URL: ")
     message = input("Enter the message to spam: ")
     num_requests = int(input("Enter the number of requests to send: "))
