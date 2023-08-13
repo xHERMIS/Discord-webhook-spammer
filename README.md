@@ -12,9 +12,9 @@ python webhook_spammer.py <webhook_url> "<message>"
 ```
 ## Options
 
---num-requests: Number of requests to send (default: 10)
---delay: Delay between requests in seconds (default: 1)
---username: Custom username for messages
---avatar: Custom avatar URL for messages
-Disclaimer
+1. --num-requests: Number of requests to send (default: 10)
+2. --delay: Delay between requests in seconds (default: 1)
+3. --username: Custom username for messages
+4. --avatar: Custom avatar URL for messages
+## Disclaimer
 Use this tool responsibly and only for legitimate testing purposes. Respect Discord's terms of service.
